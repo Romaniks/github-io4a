@@ -13,7 +13,7 @@
         </main>
     </body>
     <style>
-       body {
+body {
     font-family: sans-serif;
 }
 
@@ -23,7 +23,7 @@ h1 {
 }
 
 .inf{
-    font-size: 5x;
+    font-size: 20px;
     font-weight: 700;
     color:#481677;
 }
@@ -55,8 +55,12 @@ nav a {
     
 }
 
-.picture {
-    width: 100px;
+nav a:hover {
+    color: #ffffff;
+}
+
+img {
+    width: 50px;
     display: block;
 }
 
@@ -64,31 +68,34 @@ i {
     color: aqua;
 }
 
-.picture {
+img {
     opacity: 0;
     font-size: 150px;
 }
 
 img:hover {
     opacity: 1;
+}
 
-a {
-   position: absolute;
+.project {
+    position: absolute;
     left: -80px;
     transition: 0.3s;
     padding: 15px;
     width: 100px;
     text-decoration: none;
     font-size: 20px;
-    color: white;
+    color: #4CAF50;
     border-radius: 0 5px 5px 0;
-    top: 80px;
-    background-color: #2196F3;
 }
 
-
 .project:hover {
-   left: 0px; 
+    left: 0px;
+}
+
+.project {
+    top: 20px;
+    background-color: #4CAF50;
 }    
   </style>
 </html>
